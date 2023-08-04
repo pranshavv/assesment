@@ -6,11 +6,12 @@ const Card = () => {
     <div
       style={{
         width: "185px",
-        height: "180px",
+        height: "auto",
         padding: "8px",
         backgroundColor: "lightpink",
         boxShadow: "2px 2px grey",
         borderRadius: "0.375rem",
+        overflow: "hidden"
         
       }}
     >
