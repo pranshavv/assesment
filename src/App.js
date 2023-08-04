@@ -2,6 +2,7 @@ import './App.css';
 import { useState } from 'react';
 import {Login} from "./component/Login";
 import { Register } from "./component/Register"
+import Cards from './component/Cards';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       {
         currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm} />
       }
+      <Cards/>
     </div>
   );
 }
