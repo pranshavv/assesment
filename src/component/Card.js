@@ -1,4 +1,5 @@
 import React from "react";
+import { FaUserCircle } from "react-icons/fa";
 
 const Card = () => {
   return (
@@ -13,6 +14,7 @@ const Card = () => {
         
       }}
     >
+        <FaUserCircle style={{ width: "30px", height: "30px" }} />
       <h4>Title</h4>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum omnis
