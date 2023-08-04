@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import backgroundImage from '../assests/bgImage.jpg';
+
 import sideImage from '../assests/ekImage.jpg'
 export const Login = (props) => {
 
@@ -15,7 +15,6 @@ export const Login = (props) => {
     <>
 
         <img src={sideImage} alt="Ba" className="sideImg" />
-        <img src={backgroundImage} alt="Background" className="background-img" />
       <div className="auth-form-container">
             <h2>Welcome Back!</h2>
             <h3>Login to your account</h3>

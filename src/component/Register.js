@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import backgroundImage from '../assests/bgImage.jpg';
+
 export const Register = (props) => {
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
@@ -13,7 +13,6 @@ export const Register = (props) => {
 
     return (
         <>
-        <img src={backgroundImage} alt="Background" className="background-img" />
         <div className="auth-form-container">
             <h2>Join!</h2>
             <h3>Login to your account</h3>
